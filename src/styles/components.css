@@ -1,0 +1,45 @@
+/* Buttons */
+.btn-primary {
+  @apply bg-primary-500 text-white px-6 py-3 rounded-lg hover:bg-primary-600 transition;
+  /* For font-family and weight, define in a separate rule */
+}
+
+.btn-primary-font {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Cards */
+.card {
+  @apply bg-white rounded-xl shadow-lg overflow-hidden;
+}
+
+.card img {
+  @apply object-cover w-full h-48;
+}
+
+.card-content {
+  @apply p-6;
+}
+
+.card-title {
+  @apply font-poppins text-xl font-bold text-primary-600 mb-2;
+}
+
+.card-description {
+  @apply text-gray-700 font-comic;
+}
+
+/* Form inputs */
+.input-field {
+  @apply px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500;
+}
+
+/* Modal */
+.modal-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50;
+}
+
+.modal-content {
+  @apply bg-white rounded-lg p-6 max-w-lg w-full relative;
+}
