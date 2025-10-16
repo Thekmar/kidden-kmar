@@ -19,7 +19,7 @@ export default function AboutSection() {
             </svg>
           </div>
 
-          {/* Alligator cartoon image (use your SVG or PNG for accuracy) */}
+          {/* Alligator cartoon image */}
           <img
             src="/assets/images/animals/alligator.png"
             alt="Alligator"
@@ -34,13 +34,13 @@ export default function AboutSection() {
             style={{ marginLeft: "12px", marginTop: "24px" }}
           />
         </div>
-        {/* Right: Text content and progress bars */}
+        {/* Right: progress bars */}
         <div className="flex-1 pl-0 md:pl-8 z-[1] max-w-2xl flex flex-col items-start">
           {/* Orange label */}
           <div className="text-orange-600 font-bold text-lg font-comic mb-2">
             Learning Is An Adventure!
           </div>
-          {/* Heading with underline */}
+          {/* underline */}
           <h2 className="font-poppins font-black text-4xl sm:text-5xl text-gray-900 leading-tight mb-2">
             A Safe Place To
             <br />
@@ -58,7 +58,7 @@ export default function AboutSection() {
             Kindergarten is an early childhood educational environment where
             most young children engage in foundational learning experiences.
           </p>
-          {/* Experience Bar */}
+          {/* Bar */}
           <div className="w-full mb-4">
             <div className="flex items-center justify-between mb-1">
               <span className="font-bold font-comic text-gray-700 text-xl">
@@ -102,14 +102,6 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-      {/* Top right snake+branch cartoon (optional, add if you want) */}
-      {/* 
-      <img
-        src="/assets/images/about/branch-snake.png"
-        alt="Snake"
-        className="absolute top-0 right-0 w-64 z-20"
-      />
-      */}
     </section>
   );
 }
