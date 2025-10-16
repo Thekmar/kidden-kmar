@@ -1,7 +1,5 @@
 
 import React from "react";
-
-// Dummy icons as inline SVG; replace with your actual SVG assets or components
 const icons = [
   <svg key="ico1" className="w-20 h-20 text-orange-500" fill="none" viewBox="0 0 64 64" stroke="currentColor">
     <circle cx="32" cy="32" r="30" strokeWidth="4" />
@@ -111,7 +109,6 @@ export default function ServicesSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            {/* White cloud/curve SVG overlay at top */}
             <svg
               className="absolute top-[205px] left-0 w-full h-20"
               viewBox="0 0 400 80"
@@ -124,7 +121,7 @@ export default function ServicesSection() {
                 fill="#fff"
               />
             </svg>
-            {/* Feature icon (circled, prominent, overlays curve) */}
+            {/* Feature icon */}
             <div className={`absolute top-[170px] left-1/2 -translate-x-1/2 z-20 flex flex-col items-center`}>
               <div className={`w-24 h-24 rounded-full flex items-center justify-center shadow-2xl text-white ${color} bg-white border-8 border-white`}>
                 {icon}
@@ -139,7 +136,7 @@ export default function ServicesSection() {
                 {desc}
               </div>
             </div>
-            {/* Navigation button at bottom center */}
+            {/* Navigation */}
             <div className="absolute bottom-[-32px] left-1/2 -translate-x-1/2 z-30">
               <button className={`${navColor} w-16 h-16 flex items-center justify-center rounded-full shadow-lg transition`}>
                 <svg width="28" height="28" fill="none" viewBox="0 0 24 24" className="text-white">
