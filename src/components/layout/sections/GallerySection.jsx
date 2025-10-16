@@ -19,7 +19,7 @@ export default function GallerySection() {
           <h1 className="text-5xl md:text-6xl font-bold font-poppins text-gray-900 mb-4 leading-tight">
             Guiding Little Feet On Big Journeys!
           </h1>
-          {/* Add yellow underline highlight if you like */}
+          {/*yellow underline  */}
           <div className="w-60 h-2 bg-yellow-500 mt-[-26px] rounded-full"></div>
         </div>
 
