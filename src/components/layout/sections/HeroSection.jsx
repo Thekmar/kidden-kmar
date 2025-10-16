@@ -1,25 +1,3 @@
-// export default function HeroSection() {
-//   return (
-//     <section className="bg-orange-50 py-20 px-6 max-w-7xl mx-auto rounded-lg flex flex-col items-center text-center">
-//       <h1 className="text-6xl font-poppins font-extrabold text-orange-700 mb-8">Welcome to Kidden!</h1>
-//       <p className="text-xl text-orange-800 font-comic max-w-xl mb-10">
-//         Where learning is fun and every child is supported to grow creatively and intellectually.
-//       </p>
-//       <img
-//         src="/assets/images/about/about-girl.jpg"
-//         alt="Happy child playing"
-//         className="rounded-xl shadow-lg w-96"
-//       />
-//       <a
-//         href="/contact"
-//         className="mt-8 bg-orange-600 text-white px-10 py-3 rounded-lg font-poppins font-semibold hover:bg-orange-700 transition"
-//       >
-//         Book a Visit
-//       </a>
-//     </section>
-//   );
-// }
-
 
 import React from "react";
 
@@ -27,10 +5,10 @@ export default function HeroSection() {
   return (
     <section className="relative bg-white overflow-hidden w-full pb-12 pt-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center min-h-[590px] w-full px-6">
-        {/* Left Artwork and Girl with Bag */}
+        {/* Girl with Bag */}
         <div className="relative flex flex-col items-center w-full h-full">
           <div className="absolute left-0 top-0 w-full h-full z-0 flex">
-            {/* Replace these placeholder SVG/colors with your SVG shapes/backgrounds */}
+           
             <div className="w-[420px] h-[460px] bg-yellow-100 rounded-[36%] z-0 absolute top-10 left-0" />
           </div>
           <div className="relative z-10 flex flex-col items-center">
@@ -46,14 +24,14 @@ export default function HeroSection() {
                 boxShadow: "0 8px 24px rgba(0,0,0,0.08)",
               }}
             />
-            {/* Overlapping Giraffe (use png/svg asset) */}
+            {/* Overlapping Giraffe */}
             <img
               src="/assets/images/animals/giraffe.png"
               className="absolute left-[220px] bottom-0 w-36"
               alt="Cartoon Giraffe"
               style={{ zIndex: 4 }}
             />
-            {/* Decorative tablet, hat, ink icons, etc */}
+    
             <img
               src="/assets/images/about/hatt3.png"
               className="absolute left-[50px] top-0 w-[90px] z-10"
@@ -98,7 +76,7 @@ export default function HeroSection() {
           <div className="flex items-center gap-10 mt-2 mb-7">
             <div className="flex items-center gap-2">
               <span className="text-4xl text-orange-400">
-                {/* SVG for home-like environment icon */}
+                
                 <svg width="40" height="40" fill="none" viewBox="0 0 24 24">
                   <rect x="4" y="10" width="16" height="10" rx="2" fill="none" stroke="currentColor" strokeWidth="2"/>
                   <path d="M12 4L2 14h20L12 4z" fill="none" stroke="#fb923c" strokeWidth="2"/>
@@ -110,7 +88,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-2">
               <span className="text-4xl text-orange-400">
-                {/* SVG for safety icon */}
+              
                 <svg width="40" height="40" fill="none" viewBox="0 0 24 24">
                   <rect x="5" y="12" width="14" height="8" rx="2" fill="none" stroke="currentColor" strokeWidth="2"/>
                   <path d="M12 12V4" stroke="#fb923c" strokeWidth="2"/>
@@ -122,7 +100,6 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Call to action buttons and phone */}
           <div className="flex items-center gap-8 mt-2">
             <a
               href="#"
