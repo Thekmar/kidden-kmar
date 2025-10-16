@@ -62,8 +62,7 @@ export default function HomePage() {
         </div>
         {/* Right: Hero Image */}
         <div className="flex-1 flex justify-center items-end relative min-h-[400px]">
-          {/* Place holder background and figures for theme */}
-          {/* Image example: */}
+          
           <img
             src="/assets/images/about/hero-boy.png"
             alt="Kids"
@@ -76,11 +75,11 @@ export default function HomePage() {
             className="w-[420px] h-[425px] object-contain z-5"
             style={{ marginRight: "0px" }}
           />
-          {/* SVG or extra bg shapes if needed */}
+        
           <div className="absolute z-0 w-full h-full right-0 top-0 pointer-events-none">
-            {/* Add colored shapes here if needed */}
+     
           </div>
-          {/* START NOW button: mimic style with mixed bg */}
+        
           <div className="absolute left-6 top-52 z-20 flex items-center">
             <span className="bg-yellow-400 text-black font-extrabold px-4 py-2 text-2xl rounded-r-xl" style={{ letterSpacing: 2 }}></span>
 
@@ -88,7 +87,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      {/* Add background shapes for more theme if needed */}
     </div>
   );
 }
